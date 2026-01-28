@@ -28,22 +28,24 @@ This project solves that using **unsupervised anomaly detection combined with su
 
 ## 🏗️ Architecture (Industry-Style)
 
-**Raw Transactions**
-       **↓**
-**Feature Engineering**
-       **↓**
-**Scaling (StandardScaler)**
-       **↓**
-**Isolation Forest**
-       **↓**
-**Anomaly Features**
-**(anomaly_score, is_outlier)**
-       **↓**
-**XGBoost Classifier**
-       **↓**
-**Fraud Probability**
-       **↓**
-**Threshold-Based Decision**
+```
+Raw Transactions
+       ↓
+Feature Engineering
+       ↓
+Scaling (StandardScaler)
+       ↓
+Isolation Forest
+       ↓
+Anomaly Features
+(anomaly_score, is_outlier)
+       ↓
+XGBoost Classifier
+       ↓
+Fraud Probability
+       ↓
+Threshold-Based Decision
+```
 
 ---
 
@@ -154,5 +156,3 @@ The hybrid approach ensures **robust detection**, **scalability**, and **busines
 
 **Anshuman Gupta**  
 Machine Learning | Data Science  
-
-
