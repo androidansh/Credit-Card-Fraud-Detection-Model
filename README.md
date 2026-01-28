@@ -28,7 +28,6 @@ This project solves that using **unsupervised anomaly detection combined with su
 
 ## 🏗️ Architecture (Industry-Style)
 
-```
 **Raw Transactions**
        **↓**
 **Feature Engineering**
@@ -45,7 +44,6 @@ This project solves that using **unsupervised anomaly detection combined with su
 **Fraud Probability**
        **↓**
 **Threshold-Based Decision**
-```
 
 ---
 
