@@ -54,8 +54,8 @@ Threshold-Based Decision
 The dataset contains real-world credit card transaction records.
 
 ### Final Features Used
-
-**| Feature          |         Description                         |**
+```
+| Feature          |         Description                         |
 |------------------|---------------------------------------------|
 | amount           | Transaction amount                          |
 | distance         | Distance between cardholder & merchant (km) |
@@ -65,9 +65,9 @@ The dataset contains real-world credit card transaction records.
 | category_encoded | Encoded merchant category                   |
 | anomaly_score    | Isolation Forest anomaly score              |
 | is_outlier       | Binary anomaly flag                         |
-
-Target:
-- `**is_fraud` (0 = Normal, 1 = Fraud)**
+```
+**Target:**
+- `is_fraud` (0 = Normal, 1 = Fraud)
 
 ---
 
@@ -142,6 +142,10 @@ The model assigns:
 - Real-time transaction scoring API
 - Online learning for concept drift
 - Cost-sensitive loss optimization
+
+---
+## DataSet URL
+**https://www.kaggle.com/datasets/kartik2112/fraud-detection**
 
 ---
 
